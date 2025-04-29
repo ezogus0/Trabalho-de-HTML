@@ -1,0 +1,126 @@
+
+.pmae{
+    display: flex;
+    justify-content: space-around; /* Espaço entre as imagens */
+    flex-wrap: wrap; /* Quebra para outra linha se não couber */
+    gap: 20px; /* Da um espaçamento entre as imagens*/
+    flex-direction: column; /* exibe uma imagem abaixo da outra*/
+}
+.pmae img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    transition: transform 0.3s ease;
+}
+.pmae img:hover{ /*  esse comando aplica um efeito de "seleção" por onde o mouse passar*/
+    transform: scale(1.05); 
+}
+
+.mae_radio{
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+}
+
+.mae_radio input[type="radio"]{
+    margin-right: 10px;
+    accent-color: #e63946; /* coloca a cor vermelha no preenchimento do botão/radio */
+}
+
+.descricao{
+    max-width: 400px;
+}
+
+.mae1{
+    align-items: center; /* alinha os conteúdos no centro */
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #e63946;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+.mae1 img{
+    flex-shrink: 0; /* IMPEDIR que a imagem seja fique esmagada */
+    height: auto;
+}
+
+
+.mae2{
+    align-items: center; /* alinha os conteúdos no centro */
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #e63946;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+.mae2 img{
+    flex-shrink: 0; /* IMPEDIR que a imagem seja fique esmagada */
+    height: auto;
+}
+
+
+.mae3{
+    align-items: center; /* alinha os conteúdos no centro */
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #e63946;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+.mae3 img{
+    flex-shrink: 0; /* IMPEDIR que a imagem seja fique esmagada */
+    height: auto;
+}
+
+.mae4{
+    align-items: center; /* alinha os conteúdos no centro */
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #e63946;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+.mae4 img{
+    flex-shrink: 0; /* IMPEDIR que a imagem seja fique esmagada */
+    height: auto;
+}
+
+.mae5{
+    align-items: center; /* alinha os conteúdos no centro */
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #e63946;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+    
+}
+
+.mae5 img{
+    flex-shrink: 0; /* IMPEDIR que a imagem seja fique esmagada */
+    height: auto;
+}
+
+.mae6{
+    align-items: center; /* alinha os conteúdos no centro */
+    display: flex;
+    gap: 20px;
+    
+}
+
+.mae6 img{
+    flex-shrink: 0; /* IMPEDIR que a imagem seja fique esmagada */
+    height: auto;
+}
+
+.table{
+    border: 3px solid red; /* Borda da tabela */
+    border-radius: 10px; /* Bordas arredondadas */      
+    border-collapse: collapse; /* Remove o espaçamento entre as bordas das células */
+    width: 100%; /* Largura total da tabela */
+    margin-top: 20px; /* Espaço acima da tabela */
+}

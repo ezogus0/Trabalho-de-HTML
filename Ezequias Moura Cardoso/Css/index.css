@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+  justify-content: space-between; /* uma imagem vai pra esquerda e a outra pra direita */
+  align-items: center;
+}
+
+.logoesq,
+.logocen,
+.logodir {
+  width: 150px; 
+  height: auto;
+}
+
+.Escolha {
+    width: 250px;
+    height: 230px;
+    padding: 10px; /* padding usa para adicionar um espaço entre o fieldset e o conteudo */
+}
+
